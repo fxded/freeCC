@@ -1,0 +1,34 @@
+git init
+history
+   22  mkdir freeCC
+   27  cd freeCC/
+   23  git init
+   25  git 
+   29  git config --list
+   30  git config --global user.name "xded"
+   31  git config --global user.email "xded@mail.ru"
+   32  git config --list
+   33  git status 
+   36  git status -s
+   37  git add 4help.html 
+   39  git add *
+   51  git add .gitignore 
+   52  git status
+   54  git commit -am "create pattern page for help and tribute(historycal) page"
+   55  git status
+   56  git status -s
+git add
+git commit
+git diff - показывает разницу в версиях 
+git diff --cached
+git rm --cached make file untracked
+git rm delete file
+git rm -f delete file forced
+git mv file oldfile rename file to oldfile
+git log
+git log -p
+git commit --amend - rewrite previus commit
+git reset HEAD file - to unstage file
+git checkout -- file - to discard chandes in worcking directory
+git remote add origin https://github.com/fxded/freeCC
+git remote -v
