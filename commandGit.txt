@@ -59,3 +59,10 @@ git branch newBranch- новая ветка
   145  git branch -d newBranch 
   146  git checkout -b newBranch создание новой ветки с переходов в нее
   147  git status 
+  165  git merge newBranch  слияние с основной веткой
+  
+    171  git ls-remote origin
+  172  git remote show origin
+  174  git remote
+  183  git push origin newBranch:newBranch
+
