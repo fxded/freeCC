@@ -32,3 +32,30 @@ git reset HEAD file - to unstage file
 git checkout -- file - to discard chandes in worcking directory
 git remote add origin https://github.com/fxded/freeCC
 git remote -v
+  113  git pull origin master получить с удаленного и слить с локальным
+  114  git add *
+  115  git status
+  116  git commit 
+  117  git status
+  118  git log
+  119  git log -v
+  120  git push origin master залить измененное на удаленный
+  121  history
+  122  git remote show origin 
+  123  git tag v0.1 -m "begin development project"
+  124  git tag
+  125  git push origin --tags
+git branch newBranch- новая ветка
+  132  git branch -v
+  133  git log --oneline
+  134  git branch newBranch
+  135  git log --oneline
+  136  git branch -v
+  137  git checkout newBranch -
+  138  git branch -v
+  139  git log --oneline
+  142  git checkout master 
+  143  git status 
+  145  git branch -d newBranch 
+  146  git checkout -b newBranch создание новой ветки с переходов в нее
+  147  git status 
