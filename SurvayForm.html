@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Survay form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header >
+    <h1 id="title">Survay Form</h1>
+    <p id="description">short explanation</p>
+    <form id="survey-form" action="http://shultais.educations/form" method="post" target="_blank">
+      <label id="name-label">Name
+        <input id="name" type="text" name="name" placeholder="name" required="" autofocus>
+      </label>
+      <label id="email-label" for="eamil">E-mail</label>
+      <input id="email" type="email" name="email" placeholder="email" required="">
+      <label id="number-label" for="number">Number</label>
+      <input id="number" type="number" name="number" placeholder="number" required="" min=0 max=100>
+      <select id="dropdown" name="drpodown">
+        <option value="ru">Russia</option>
+        <option value="en">England</option>
+        <option value="eu">Europa</option>
+      </select>
+      <label>Sex
+        <input type="radio" name="sex" checked value="m"> Male
+      </label>
+       <label>
+        <input type="radio" name="sex" value="f"> Female
+      </label>
+      <label>CheckBox
+        <input type="checkbox" name="name1" checked value="ch1"> Check1
+      </label>
+       <label>
+        <input type="checkbox" name="name2" value="ch2"> Check2
+      </label>
+      <textarea name="ta1" cols="50" rows="25"></textarea>
+      <input type="submit" id="submit">
+    </form>
+  </header>
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
