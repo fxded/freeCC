@@ -30,7 +30,7 @@ git log -p
 git commit --amend - rewrite previus commit
 git reset HEAD file - to unstage file
 git checkout -- file - to discard chandes in worcking directory
-git remote add origin https://github.com/fxded/freeCC
+git remote add origin https://github.com/fxded/frпше eeCC
 git remote -v
   113  git pull origin master получить с удаленного и слить с локальным
   114  git add *
