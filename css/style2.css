@@ -1,0 +1,37 @@
+#header {
+  display:flex;
+  background: red;    
+}
+#navbar {
+  display:flex;
+  width:100%;
+  height:110px;
+  color:red;
+  background: LightSkyBlue;
+  position:fixed;
+
+}
+#welcome-section {
+  display:flex;
+  width:100%;
+  height:100vh;
+  margin-top:100px;
+  color:Yellow;
+  background: #345678;
+  
+}
+#projects {
+  display:flex;
+  width:100%;
+  height:400px;
+  color:green;
+  background: #876543;
+  
+}
+@media only screen and (min-width: 400px) {
+  .body {
+      min-height: 300px;
+      width: 100%;
+      background: LightGray;
+      display: flex;
+  }

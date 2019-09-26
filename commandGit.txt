@@ -65,4 +65,4 @@ git branch newBranch- новая ветка
   172  git remote show origin
   174  git remote
   183  git push origin newBranch:newBranch
-
+git commit --amend chage previus commit
